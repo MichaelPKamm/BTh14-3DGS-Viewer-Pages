@@ -74,7 +74,7 @@
     "type:check": "tsc --noEmit",
     "watch": "rollup -c -w",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d develop"
+    "deploy": "gh-pages -d public -b gh-pages"
   },
   "engines": {
     "node": ">=18.0.0"
