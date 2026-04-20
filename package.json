@@ -73,8 +73,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "type:check": "tsc --noEmit",
     "watch": "rollup -c -w",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages-clean && gh-pages -d public -b gh-pages"
+    "deploy": "echo GitHub Pages deployment runs via GitHub Actions on push to main"
   },
   "engines": {
     "node": ">=18.0.0"
